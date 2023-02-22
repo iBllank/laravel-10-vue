@@ -83,5 +83,6 @@ class ChirpController extends Controller
         $chirp->delete();
 
         return redirect(route('chirps.index'));
+
     }
 }
